@@ -5,6 +5,7 @@
   }
 
 body,html{
+  margin: 0;
   font-family: 'GmarketSansLight';
   font-size: 35px;
   font-weight: bolder;
@@ -95,12 +96,12 @@ flex-direction: row-reverse;
   }
 }
 
-@media (max-width: 440px){
+@media (max-width: 445px){
   .contents-box{
-    font-size: 60%;
+    font-size: 65%;
   }
   .content-name{
-    padding: 5px 20px 5px 20px;
+    padding: 5px 10px 5px 10px;
     }
 }
 
