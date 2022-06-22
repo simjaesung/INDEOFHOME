@@ -12,7 +12,6 @@ body,html{
   background-color: black;
   height: 100%;
   width: 100%;
-  overflow: hidden;
 }
 
 .out-line{
@@ -84,32 +83,71 @@ flex-direction: row-reverse;
     height: 200px;
     background:#ffffff;
     border:2px solid black;
-    font-size: 75%
+    font-size: 0.8rem;
   }
 
   .content-name{
-    padding: 3px 20px 5px 20px;
+    padding: 3px 20px 3px 20px;
     }
 
-  body{
+  /* body{
     width : 100vw;
-  }
+  } */
 }
 
-@media (max-width: 445px){
+@media (max-width: 470px){
+  .contents{
+    letter-spacing :2px; 
+  }
   .contents-box{
-    font-size: 65%;
+    font-size: 0.8rem;
   }
   .content-name{
     padding: 5px 10px 5px 10px;
     }
 }
 
-@media (max-width: 385px){
+@media (max-width: 400px){
   .contents-box{
-    font-size: 60%;
+    font-size: 0.6rem;
   }
   .content-name{
-    padding: 5px 10px 5px 10px;
+    padding: 5px 5px 5px 5px;
+    }
+}
+
+@media (max-width: 350px){
+  .contents{
+    letter-spacing :2px; 
+  }
+  .contents-box{
+    font-size: 0.6rem;
+  }
+  .content-name{
+    padding: 5px 2px 5px 2px;
+    }
+}
+
+@media (max-width: 300px){
+  .contents{
+    letter-spacing :2px; 
+  }
+  .contents-box{
+    font-size: 0.5rem;
+  }
+  .content-name{
+    padding: 5px 2px 5px 5px;
+    }
+}
+
+@media (max-width: 260px){
+  .contents{
+    letter-spacing :2px; 
+  }
+  .contents-box{
+    font-size: 0.4rem;
+  }
+  .content-name{
+    padding: 6px;
     }
 }
