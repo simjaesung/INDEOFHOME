@@ -14,9 +14,10 @@ body,html{
 }
 
 .out-line{
+  border: 1px solid wheat;
   padding: 150px 0 150px 0;
   margin: auto;
-  width: 500px;
+  width: 400px;
 }
 
 .Roof{
@@ -62,7 +63,7 @@ height: 100%;
 flex-direction: row-reverse;
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .Roof{
     margin-left: auto;
     margin-right: auto;
@@ -86,4 +87,4 @@ flex-direction: row-reverse;
   .content-name{
     padding: 10px 20px 0 20px;
     }
-}
+} */
