@@ -96,7 +96,7 @@ flex-direction: row-reverse;
     width: 90%;
     background:#ffffff;
     border:2px solid black;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
   }
 
   .content-name{
@@ -116,7 +116,7 @@ flex-direction: row-reverse;
     letter-spacing :2px; 
   }
   .contents-box{
-    font-size: 0.8rem;
+    font-size: 0.75rem;
   }
   
 
@@ -124,7 +124,7 @@ flex-direction: row-reverse;
 
 @media (max-width: 410px){
   .contents-box{
-    font-size: 0.7rem;
+    font-size: 0.65rem;
   }
 }
 
@@ -134,7 +134,7 @@ flex-direction: row-reverse;
     margin-bottom: 20px;
   }
   .contents-box{
-    font-size: 0.6rem;
+    font-size: 0.55rem;
   }
   .content-name{
     padding:0px 10px 0px 10px;
@@ -150,7 +150,7 @@ flex-direction: row-reverse;
     letter-spacing :1px; 
   }
   .contents-box{
-    font-size: 0.5rem;
+    font-size: 0.45rem;
   }
   .content-name{
     padding:0px 5px 0px 5px;
@@ -162,7 +162,7 @@ flex-direction: row-reverse;
     letter-spacing :1px; 
   }
   .contents-box{
-    font-size: 0.45rem;
+    font-size: 0.40rem;
   }
   .content-name{
     padding: 3px;
