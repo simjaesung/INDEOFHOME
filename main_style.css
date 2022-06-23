@@ -15,7 +15,7 @@ body,html{
 }
 
 .out-line{
-  padding: 100px 0 100px 0;
+  padding: 150px 0 150px 0;
   margin: auto;
   width: 100%;
 }
@@ -23,7 +23,7 @@ body,html{
 .Roof{
   margin-left: auto;
   margin-right: auto;
-  width: 500px;
+  width: 450px;
   height:120px;
   background:#ffffff;
   border-radius:400px 400px 0 0 / 200px 200px 0 0;
@@ -35,14 +35,13 @@ body,html{
   flex-direction: column;
   justify-content: flex-start;
   margin : auto;
-  width: 500px;
+  width: 450px;
   height: 100%;
   background:#ffffff;
   border:2px solid black;
 }
 
 .contents{
-  
   color: black;
   width: 100%;
   border-bottom:2px solid black;
@@ -82,7 +81,7 @@ flex-direction: row-reverse;
   .Roof{
     margin-left: auto;
     margin-right: auto;
-    width:90%;
+    width:70%;
     height:100px;
     background:#ffffff;
     border-radius:100% 100% 0 0 / 200% 200% 0 0;
@@ -93,14 +92,14 @@ flex-direction: row-reverse;
   }
   .contents-box{
     margin : auto;
-    width: 90%;
+    width: 70%;
     background:#ffffff;
     border:2px solid black;
     font-size: 0.85rem;
   }
 
   .content-name{
-    padding: 0 15px 0 15px;
+    padding: 0 0 0 10px;
     }
 
   .logo{
@@ -108,7 +107,7 @@ flex-direction: row-reverse;
   }
 }
 
-@media (max-width: 450px){
+@media (max-width: 500px){
   .Roof{
     height: 80px;
   }
@@ -122,47 +121,71 @@ flex-direction: row-reverse;
 
 }
 
-@media (max-width: 410px){
+@media (max-width: 470px){
   .contents-box{
-    font-size: 0.65rem;
+    font-size: 0.7rem;
   }
 }
 
-@media (max-width: 365px){
+@media (max-width: 445px){
   .Roof{
     height: 70px;
     margin-bottom: 20px;
   }
   .contents-box{
-    font-size: 0.55rem;
+    font-size: 0.65rem;
   }
   .content-name{
-    padding:0px 10px 0px 10px;
+    padding:0px 0 0px 5px;
     }
 }
 
-@media (max-width: 310px){
-  .Roof{
+@media (max-width: 380px){
+  /* .Roof{
     height: 60px;
 
-  }
+  } */
   .contents{
     letter-spacing :1px; 
   }
   .contents-box{
-    font-size: 0.45rem;
+    font-size: 0.6rem;
   }
   .content-name{
     padding:0px 5px 0px 5px;
     }
 }
 
-@media (max-width: 285px){
+@media (max-width: 350px){
   .contents{
     letter-spacing :1px; 
   }
   .contents-box{
-    font-size: 0.40rem;
+    font-size: 0.55rem;
+  }
+  .content-name{
+    padding: 3px;
+    }
+}
+
+@media (max-width: 350px){
+  .contents{
+    letter-spacing :1px; 
+  }
+  .contents-box{
+    font-size: 0.55rem;
+  }
+  .content-name{
+    padding: 3px;
+    }
+}
+
+@media (max-width: 310px){
+  .contents{
+    letter-spacing :0px; 
+  }
+  .contents-box{
+    font-size: 0.5rem;
   }
   .content-name{
     padding: 3px;
