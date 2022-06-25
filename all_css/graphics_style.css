@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-style:normal;
+  }
+
+*{
+    margin : 0;
+    padding: 0;
+    font-family: 'GmarketSansLight';
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    list-style-type: none;
+    padding-top : 30px;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+
+.nav-item{
+    padding: 0 10px 0 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.nav-item a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 80%;
+}
+.nav-item a:hover{
+    color: #707070
+}
+.nav-item:nth-child(4){
+    background-color: #bdbdbd
+}
+
+.project-row{
+    display: table;
+}
+
+.project-box{
+    display: table-cell;
+}
+
+.project{
+    display: table-cell;
+}
+
+.project img{
+    width: 100%;
+    height: 100%;
+}
+
+.project-box>.project:hover img {
+    transform: scale(1.0);
+    transition: transform 2s;
+    filter: brightness(70%);
+  }
+
+@media (max-width: 1000px) {
+    .project-box{
+        display: block;
+    }
+}
+
+.logo{
+    padding: 50px 0 50px 0;
+    margin: auto;
+    height: 100%;
+    width: 20%;
+    text-align: center;
+    
+}
+
+.logo img{
+    background-color: black;
+    width: 100%;
+    /* height: 100%; */
+}
