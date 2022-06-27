@@ -38,3 +38,22 @@
 .nav-item:nth-child(6){
     background-color: #bdbdbd
 }
+section{
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+}
+.side{
+    background-color: #707070;
+}
+.container1{
+    display: grid;
+    margin: auto;
+    padding: 0;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px 400px;
+}
+
+.item{
+    border: 1.5px solid black;
+}

@@ -39,49 +39,48 @@
     background-color: #bdbdbd
 }
 
-.project-row{
+.graphics-row{
     display: table;
     height: 100px;
 }
 
-.project-box{
+.graphics-box{
     display: table-cell;
     height: 100px;
 }
 
-.project{
+.graphics{
     display: table-cell;
     vertical-align: middle;
 }
 
-.project img{
+.graphics img{
     width: 100%;
     height: 100%;
-    
 }
 
-.project-box>.project:hover img {
+.graphics-box>.graphics:hover img {
     transform: scale(1.0);
     filter: brightness(70%);
   }
 
 @media (max-width: 1000px) {
-    .project-box{
+    .graphics-box{
         display: table;
         text-align: center;
         /* table-layout: fixed; */
     
     }
-    .project{
+    .graphics{
         vertical-align: auto;
         width: 500px;
         height: 300px;
         
     }
-    .project img{
+    .graphics img{
         object-fit: cover;
     }
-    .project-box>.project:hover img {
+    .graphics-box>.graphics:hover img {
         transform: none;
         transition: none;
         filter: none;
