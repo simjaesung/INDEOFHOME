@@ -41,11 +41,12 @@
 
 .project-row{
     display: table;
+    height: 100px;
 }
 
 .project-box{
     display: table-cell;
-    height: 70%;
+    height: 100px;
 }
 
 .project{
@@ -55,6 +56,7 @@
 .project img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 .project-box>.project:hover img {
@@ -63,11 +65,15 @@
   }
 
 @media (max-width: 1000px) {
-    /* .project-box{
-        display: block;
+    .project-box{
+        display: table;
+    }
+    .project{
+        width: 50%;
+    }
+    .project img{
         object-fit: cover;
-        height: 300px;
-    } */
+    }
     .project-box>.project:hover img {
         transform: none;
         transition: none;
