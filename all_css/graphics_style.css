@@ -41,10 +41,12 @@
 
 .project-row{
     display: table;
+    height: 50%;
 }
 
 .project-box{
     display: table-cell;
+    height: 70%;
 }
 
 .project{
@@ -56,16 +58,24 @@
     height: 100%;
 }
 
-.project-box>.project:hover img {
+/* .project-box>.project:hover img {
     transform: scale(1.0);
-    transition: transform 2s;
     filter: brightness(70%);
-  }
+  } */
 
 @media (max-width: 1000px) {
     .project-box{
         display: block;
     }
+
+}
+
+@media (max-width: 700px) {
+    .project-box>.project:hover img {
+        transform: none;
+        transition: none;
+        filter: none;
+      }
 }
 
 .logo{
