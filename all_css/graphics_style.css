@@ -63,11 +63,11 @@
   }
 
 @media (max-width: 1000px) {
-    .project-box{
+    /* .project-box{
         display: block;
         object-fit: cover;
         height: 300px;
-    }
+    } */
     .project-box>.project:hover img {
         transform: none;
         transition: none;
