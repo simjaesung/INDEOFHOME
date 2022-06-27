@@ -69,12 +69,13 @@
     .project-box{
         display: table;
         text-align: center;
-        table-layout: fixed;
+        /* table-layout: fixed; */
     
     }
     .project{
-        width: 200px;
-        height: 200px;
+        vertical-align: auto;
+        width: 50%;
+        /* height: 200px; */
         
     }
     .project img{
