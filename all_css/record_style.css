@@ -48,12 +48,14 @@
 }
 .title-left{
     border: 1px solid black;
+    border-bottom: 0;
     display: grid;
     grid-template-columns: 1fr 4.5fr;
 }
 
 .title-right{
     border: 1px solid black;
+    border-bottom: 0;
 }
 .record-box{
     display: grid;
@@ -67,17 +69,17 @@
 .side{
     background-color: #707070;
     border: 1px solid black;
-    border-left: 2px solid black;
+    border-left: 1px solid black;
 }
 
 .container1{
     display: grid;
-    margin: auto;
+    /* margin: auto;
     padding: 0;
-    width: 100%;
+    width: 100%; */
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    border: 1px solid black;
+    border-right: 1px solid black;
 }
 
 .item{
