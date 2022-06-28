@@ -38,22 +38,65 @@
 .nav-item:nth-child(6){
     background-color: #bdbdbd
 }
-section{
+
+.title{
+    display: grid;
+    grid-template-columns: 5.5fr 4.5fr;
+    border: 1px solid black;
+    font-size: 150%;
+    font-weight: bolder;
+}
+.title-left{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 4.5fr;
+}
+
+.title-right{
+    border: 1px solid black;
+}
+.record-box{
     display: grid;
     grid-template-columns: 1fr 9fr;
 }
+
+#text{
+    padding: 10px;
+}
+
 .side{
     background-color: #707070;
+    border: 1px solid black;
+    border-left: 2px solid black;
 }
+
 .container1{
     display: grid;
     margin: auto;
     padding: 0;
     width: 100%;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 400px 400px;
+    grid-template-rows: 1fr 1fr;
+    border: 1px solid black;
 }
 
 .item{
-    border: 1.5px solid black;
+    border: 1px solid black;
+}
+
+@media (max-width: 1000px){
+    .side{
+        display: none;
+    }
+    .record-box{
+        display: block;
+    }
+    .title{
+        grid-template-columns: 1fr 1fr;
+    }
+    .title-left{
+        display : block;
+        text-align : center;
+        padding: 0;
+    }
 }
