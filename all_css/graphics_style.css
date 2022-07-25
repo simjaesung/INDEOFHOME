@@ -36,7 +36,12 @@
     color: #707070
 }
 .nav-item:nth-child(5){
-    background-color: #bdbdbd
+    background-color: black;
+    color: white;
+}
+
+.nav-item:nth-child(5) a{
+    color: white;
 }
 
 .graphics-row{

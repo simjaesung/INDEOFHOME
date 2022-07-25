@@ -36,7 +36,10 @@
     color: #707070
 }
 .nav-item:nth-child(6){
-    background-color: #bdbdbd
+    background-color: black;
+}
+.nav-item:nth-child(6) a{
+    color: white;
 }
 
 .title{
