@@ -35,12 +35,12 @@
 .nav-item a:hover{
     color: #707070
 }
-.nav-item:nth-child(5){
+.nav-item:nth-child(4){
     background-color: black;
     color: white;
 }
 
-.nav-item:nth-child(5) a{
+.nav-item:nth-child(4) a{
     color: white;
 }
 

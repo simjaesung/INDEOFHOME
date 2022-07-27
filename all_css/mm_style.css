@@ -42,10 +42,12 @@ img{
 }
 .nav-item:nth-child(2){
     background-color: black;
+    color: white;
 }
 
 .nav-item:nth-child(2) a{
     color: white;
+    font-weight: 600;
 }
 
 /* .MM-box{
@@ -131,8 +133,8 @@ img{
   }
   
   .slower {
-    -webkit-transform: rotate(90deg) translateZ(-.2px) scale(1.1) translateX(0%) translateY(-10vh);
-            transform: rotate(90deg) translateZ(-.2px) scale(1.1) translateX(0%) translateY(-10vh);
+    -webkit-transform: rotate(90deg) translateZ(.5px) scale(1.1) translateX(0%) translateY(-10vh);
+            transform: rotate(90deg) translateZ(-.0px) scale(1.1) translateX(0%) translateY(-10vh);
   }
   .slower1 {
     -webkit-transform: rotate(90deg) translateZ(-.25px) scale(1.05) translateX(0%) translateY(8vh);
