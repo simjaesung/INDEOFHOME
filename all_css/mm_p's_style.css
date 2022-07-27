@@ -96,8 +96,11 @@ img{
     }
 }
 
-@media (max-width: 700px){
+@media (max-width: 600px){
     .MM-p-box2{
         font-size: 100%;
+    }
+    .title{
+        font-size: 20px;
     }
 }

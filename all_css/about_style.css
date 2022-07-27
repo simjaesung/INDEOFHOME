@@ -127,11 +127,9 @@ img{
         /* border-bottom-width: 30px; */
     }
     .about2-top{
-        /* font-size: 90%; */
+        padding-bottom: 15%;
     }
-    /* .about2-bottom{
-        font-size: 80%;
-    } */
+    
     .about3{
         border-right: 2px solid black;
     }
