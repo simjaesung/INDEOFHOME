@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-style:normal;
+  }
+
+*{
+    margin : 0;
+    padding: 0;
+    font-family: 'GmarketSansLight';
+    font-weight: 900;
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    list-style-type: none;
+    padding-top : 30px;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+
+.nav-item{
+    padding: 0 10px 0 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.nav-item a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 80%;
+}
+.nav-item a:hover{
+    color: #707070
+}
+.nav-item:nth-child(4){
+    background-color: black;
+    color: white;
+}
+.nav-item:nth-child(4) a{
+    color: white;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.title{
+    border: 2px solid black;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 20px;
+}
+
+.project-p-box{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 100%;
+    border : 2px solid black ;
+    border-top : 0;
+    font-weight: bold;
+}
+/* .project-p-box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.project-p-box2{
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    font-size: 110%;
+    padding: 5%;
+}
+
+.img-box{
+    border: 1px solid #D1D1D1;
+    margin: 100px 0;
+}
+
+.s-title{
+    font-size: 25px;
+}
+
+
+@media (max-width: 950px){
+    .project-p-box{
+        display: block;
+    }
+    .project-p-box{
+        border-right: 0;
+    }
+    .project-p-box2{
+        grid-template-columns: 3fr 1fr;
+        font-size: 120%;
+        padding: 10%;
+        border-right: 2px solid black;
+    }
+    .s-title{
+        font-size: 25px;
+    }
+    .img-box{
+        margin: 50px 0;
+    }
+    
+}
+
+@media (max-width: 600px){
+    .project-p-box2{
+        padding: 5%;
+        font-size: 70%;
+        display: block;
+    }
+    .project-p-box2-hidden{
+        display: none;
+    }
+    .title{
+        font-size: 20px;
+    }
+}

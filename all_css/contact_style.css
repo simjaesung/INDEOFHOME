@@ -37,10 +37,10 @@
 .nav-item a:hover{
     color: #707070
 }
-.nav-item:nth-child(5){
+.nav-item:nth-child(6){
     background-color: black;
 }
-.nav-item:nth-child(5) a{
+.nav-item:nth-child(6) a{
     color: white;
 }
 
