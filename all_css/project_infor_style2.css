@@ -113,10 +113,7 @@ img{
     
 }
 
-@media (max-width: 600px){
-    p{
-        
-    }
+@media (max-width: 600px){   
     .project-p-box2{
         padding: 3%;
         font-size: 70%;
