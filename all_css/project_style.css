@@ -93,8 +93,12 @@ section{
     padding: 15px;
 }
 .container2-top{
-    font-weight: 900;
-    letter-spacing :5px; 
+    width: 500px;
+    margin-bottom: 3%;
+}
+img{
+    object-fit: cover;
+    width: 100%;
 }
 .item{
     border-bottom: 2px solid black;
@@ -288,4 +292,7 @@ section{
     #container2-right{
         display: none;
     }   
+    .container2-top{
+        width: 300px;
+    }
 }
