@@ -65,22 +65,25 @@ section{
     border-right: 2px solid black;
 }
 
+
+
 .container1-left{
-    display: grid;
-    grid-template-rows: 1fr 4fr;
+
+
 }
+
+
 .container1-left .item{
     padding: 15px;
 }
 
 .container1-right{
     display: grid;
-    grid-template-rows: 1fr 4fr;
+    grid-template-rows: 1fr 5fr 5fr;
 }
 
 #container1-right-top{
-    display: grid;
-    grid-template-rows: 1.5fr 1fr;
+
 }
 
 .container2{
@@ -103,11 +106,16 @@ img{
 .item{
     border-bottom: 2px solid black;
     border-left: 2px solid black;
+    width: 100%;
+    height: 100%;
+    display: grid;    
 }
+
+
 
 .item-top{
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1.5fr 1fr;
 }
 
 .item-top-serize{
@@ -124,7 +132,7 @@ img{
 .item-top-serize-top{
     align-items: center;
     font-size: 40px;
-    padding: 10px 0 0 10px;
+    padding: 15px 0 0 10px;
     text-align: center;
 }
 
@@ -135,7 +143,7 @@ img{
 .item-top-project{
     text-align: center;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .project-name{
     display: flex;
@@ -144,7 +152,7 @@ img{
     font-size: 25px;
     padding: 5px;
     font-weight: bolder;
-    border-top : 1.5px solid black
+    border-bottom : 1.5px solid black;
 }
 
 .project-name-hidden{
@@ -153,9 +161,10 @@ img{
 
 .item-middle-project{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     width: 100%;
     height: 100%;
+    border-top: 2px soild black;
 }
 
 .project img{
@@ -169,6 +178,14 @@ img{
     filter: brightness(70%);
   }
 
+.foot{
+    height: 50px;
+    border: 1px solid black;
+    
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+
+}
 @media (max-width: 1000px){
     #project-picture{
         display: hidden;
@@ -208,7 +225,7 @@ img{
 
     .item-top-serize{
         display: grid;
-        grid-template-rows: 2fr 1fr;
+        grid-template-rows: 3fr 1fr;
         text-align: center;
         background-color: white;
         color: black;
